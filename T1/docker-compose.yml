@@ -1,0 +1,7 @@
+services:
+    SMA-T1:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        container_name: SMA-T1
+        image: SMA-T1:latest

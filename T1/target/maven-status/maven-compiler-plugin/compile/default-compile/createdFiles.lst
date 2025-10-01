@@ -1,0 +1,9 @@
+com\pucrs\Escalonador.class
+com\pucrs\Evento.class
+com\pucrs\SimuladorUtils.class
+com\pucrs\Fila.class
+com\pucrs\Model$Route.class
+com\pucrs\Model$QueueDef.class
+com\pucrs\Model.class
+com\pucrs\Simulador.class
+com\pucrs\Roteamento.class
