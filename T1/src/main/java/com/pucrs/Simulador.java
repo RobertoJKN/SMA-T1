@@ -164,7 +164,7 @@ public class Simulador {
 
   private void exibirResultados(double tempoSimulacao) {
     if (logger.isInfoEnabled()) {
-      logger.info("=== Fim da simulação (tempo {}) ===", String.format("%.4f", tempoSimulacao));
+      logger.info("=== Fim da simulacao (tempo {}) ===", String.format("%.4f", tempoSimulacao));
     }
     logger.info("");
     
@@ -184,7 +184,7 @@ public class Simulador {
   private void exibirCabecalhoFila(Fila fila) {
     logger.info("*********************************************************");
 
-    String cabecalho = String.format("Queue:   %s (G/G/%d%s)",
+    String cabecalho = String.format("Fila:   %s (G/G/%d%s)",
         fila.getNome(),
         fila.servidores(),
         fila.capacidade() == Integer.MAX_VALUE ? "" : ("/" + fila.capacidade()));
@@ -196,7 +196,7 @@ public class Simulador {
     
 
     if (logger.isInfoEnabled()) {
-      logger.info("Serviço: {} ... {}", String.format("%.1f", fila.getMinAtendimento()), String.format("%.1f", fila.getMaxAtendimento()));
+      logger.info("Servico: {} ... {}", String.format("%.1f", fila.getMinAtendimento()), String.format("%.1f", fila.getMaxAtendimento()));
     }
 
     logger.info("*********************************************************");
@@ -219,14 +219,14 @@ public class Simulador {
 
   private void exibirPerdasFila(Fila fila) {
     logger.info("");
-    logger.info("Número de perdas: {}", fila.perdas());
+    logger.info("Numero de perdas: {}", fila.perdas());
     logger.info("");
   }
 
   private void exibirResumoFinal(double tempoSimulacao) {
     logger.info("=========================================================");
     if (logger.isInfoEnabled()) {
-      logger.info("Tempo médio de simulação: {}", String.format("%.4f", tempoSimulacao));
+      logger.info("Tempo medio de simulacao: {}", String.format("%.4f", tempoSimulacao));
     }
     logger.info("=========================================================");
   }
