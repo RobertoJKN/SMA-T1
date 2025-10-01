@@ -1,3 +1,5 @@
+# Integrantes do grupo: Roberto Neto, João Pedro Ramos, Arthur Ariel dos Santos, Erik Ribeiro
+
 # Como Executar o Simulador
 
 ## Pré-requisitos
